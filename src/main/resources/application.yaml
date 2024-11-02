@@ -1,6 +1,8 @@
 spring:
   application:
     name: spring-validation-configurable
+
 server:
   error:
     include-message: always
+    include-binding-errors: always

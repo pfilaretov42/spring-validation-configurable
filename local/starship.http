@@ -3,5 +3,5 @@ POST http://localhost:8080/starship/attack
 Content-Type: application/json
 
 {
-  "name": "      "
+  "name": ""
 }
