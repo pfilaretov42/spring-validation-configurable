@@ -6,3 +6,9 @@ server:
   error:
     include-message: always
     include-binding-errors: always
+
+starship:
+  name:
+    length:
+      min: 10
+      max: 100
