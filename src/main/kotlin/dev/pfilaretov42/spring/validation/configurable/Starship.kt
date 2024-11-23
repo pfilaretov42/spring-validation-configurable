@@ -21,7 +21,7 @@ class Starship(
 annotation class StarshipName(
     val min: String = "1",
     val max: String = "10",
-    val message: String = "Starship name length is invalid",
+    val message: String = "Starship name length is invalid (min={min}, max={max})",
     val groups: Array<KClass<*>> = [],
     val payload: Array<KClass<*>> = [],
 )
